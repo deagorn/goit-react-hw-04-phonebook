@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import { Component, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import ContactList from "./ContactList/ContactList";
 import Filter from "./Filter/Filter";
 import s from './App.module.css'
