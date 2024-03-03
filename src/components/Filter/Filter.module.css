@@ -1,0 +1,26 @@
+.filterContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filterLabel {
+  display: block;
+  margin-bottom: 5px;
+  color: #6a0572; /* Фіолетовий колір для мітки */
+}
+
+.filterInput {
+  width: 300px; /* Задаємо ширину вводу */
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #6a0572; /* Фіолетовий колір для рамки поля вводу */
+  border-radius: 4px;
+  margin-left: 10px; /* Додаємо відступ між міткою і полем вводу */
+  transition: border-color 0.3s ease-in-out;
+}
+
+.filterInput:focus {
+  outline: none;
+  border-color: #8f3e8b; /* Фіолетовий колір при активному стані поля вводу */
+}
